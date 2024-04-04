@@ -1,0 +1,5 @@
+a = str(input('Digite seu nome:')).strip()
+a1 = a.split()
+print('Muito prazer em te conhecer!')
+print('Seu primeiro nome é {}'.format(a1[0]))
+print('Seu primeiro nome é {}'.format(a1[len(a1)-1]))

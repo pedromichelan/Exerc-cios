@@ -1,0 +1,7 @@
+a = ('BOTOFOGO', 'PALMEIRAS', 'BRAGANTINO', 'GREMIO', 'FLAMENGO', 'ATLETICO-MG', 'ATLETICO-PR', 'FLUMINENSE', 'SAO PAULO', 'FORTALEZA')
+print(f'OS 1O PRIMEIROS TIMES SÃO {a}.')
+print(f'OS 5 PRIMEIROS TIMES SÃO {a[0:5]}')
+print(f'OS 4 ÚLTIMOS TIMES SÃO {a[-4:]}')
+print('OS TIMES EM ORDEM ALFABÉTICA SÃO: ', end='')
+print(sorted(a))
+print(f'O FLAMENGO ESTÁ NA {a.index("FLAMENGO")+1}º POSIÇÃO')
